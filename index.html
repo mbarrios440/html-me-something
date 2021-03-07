@@ -3,57 +3,51 @@
     <head>
         <title>My cats!</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
         
     </head>
     <body>
         <header>
-            <h1><a id="#top">My cats!</a></h1>
+            <h1 class="headertitle"><a id="#top">My cats!</a></h1>
         </header>
         <main>
             <article>
-                <section id="pets">
-                    <figure>
-                        <img src ="assets/chibi_copper.jpeg" alt="Chibi & Copper when they were 6 months old">
-                        <figcaption>Chibi & Copper when they were 6 months old</figcaption>
-                    </figure>
-                </section>
                 <section>
+                    <h2>Chibi</h2>
                     <figure>
-                        <img src ="assets/chibi.jpeg" alt="Recent picture of Chibi">
+                        <img class = "center-fit" src ="assets/chibi.jpeg" alt="Recent picture of Chibi">
                         <figcaption>Recent picture of Chibi</figcaption>
                     </figure>
-                    <h2>Chibi</h2>
                     <p>He's a super sweet chunky boi, and also othe most independent between the two of 
                        them. Most of the time he'll be found sleeping on one of their squishy beds or eating.</p>    
                 </section>
                 <section>
+                    <h2>Copper</h2>
                     <figure>
-                        <img src ="assets/copper.jpeg" alt="Recent picture of Copper">
+                        <img class = "center-fit" src ="assets/copper.jpeg" alt="Recent picture of Copper">
                         <figcaption>Recent picture of Copper</figcaption>
                     </figure>
-                    <h2>Copper</h2>
                     <p>This one's a big attention seeker! He's always ready to play and a little crazy at 
                        times(specially in the mornings). He always wants to cuddle with us when he's sleepy.</p>
                 </section>    
                 <section>
-                    <figure>
-                        <!-- <video>
-                            <source src="assets/chibi_copper_video.mov" type="video/mp4">
-                        </video> -->
-                        <video src="assets/chibi_copper_video.mov" type="video/mp4" controls />
-                    </figure>
                     <p>I used to be the type of person that would rather not have any pets, but after a little 
                     convincing from my girlfriend, we ended up adopting these two brothers, and I can say it's 
-                    been one of the best decisions I've made. They make our home feel more like a home
-                    and honestly I couldn't imagine going back to the quietness before we had them.</p>
-
+                    been one of the best decisions I've made. Just having them around, and seeing how excited they get when they see us coming 
+                    back from work, or when we wake up makes me happy. They make our apartment feel more like a home.</p>
+                    <figure>
+                        <figcaption>This was the day we adopted them</figcaption>
+                        <video class = "center-fit" src="assets/chibi_copper_video.mov" type="video/mp4" controls />
+                        
+                    </figure>
+                    <p class = "center-text">How could you say no to these two?</p>
                 </section>
             </article>
         </main>
         <footer>
-            <p>Copyright &copy; 2021 - All Rights Reserved - <a href="mailto:miguelbh440@gmail.com">Miguel Barrios</a></p>
-            <p><a href="#top">Back to Top</a></p>
+            <p id="copyright">Copyright &copy; 2021 - All Rights Reserved - <a href="mailto:miguelbh440@gmail.com">Miguel Barrios</a></p>
+            <p id="backtotop"><a href="#top">Back to Top</a></p>
         </footer>
 
     </body>
